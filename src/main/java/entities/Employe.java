@@ -1,12 +1,10 @@
 package entities;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -17,16 +15,16 @@ import jakarta.persistence.Table;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table(name = "Entretien")
-public class Entretien implements Serializable {
+@Table(name = "Employe")
+public class Employe implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "idEntretien")
-    private Long idEntretien;
-    private Long ident;
-    private Date dateent;
-    private String typeent;
-
+    @Column(name = "idEmploye")
+    private Long idEmp;
+    private String nomEmp;
+    private String prenomEmp;
+    private Long telEmp;
+    private String posteEmp;
 
 
 }

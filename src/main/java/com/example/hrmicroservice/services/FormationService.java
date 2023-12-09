@@ -14,8 +14,6 @@ import java.util.List;
 @AllArgsConstructor
 @Slf4j
 public class FormationService implements iFormationService {
-
-
     FormationRepository formationRepository;
     @Override
     public List<Formation> retrieveAllFormations() {

@@ -12,7 +12,6 @@ import java.util.List;
 @AllArgsConstructor
 @Slf4j
 public class CongeService implements iCongeService {
-
     CongeRepository congeRepository;
     @Override
     public List<Conge> retrieveAllConges() {

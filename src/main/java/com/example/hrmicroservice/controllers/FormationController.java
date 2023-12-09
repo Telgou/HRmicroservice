@@ -11,7 +11,6 @@ import java.util.List;
 @AllArgsConstructor
 @RequestMapping("/formation")
 public class FormationController {
-
     FormationService formationService;
 
     @GetMapping("/")
