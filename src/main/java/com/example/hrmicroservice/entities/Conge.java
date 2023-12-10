@@ -1,13 +1,10 @@
-package entities;
+package com.example.hrmicroservice.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.io.Serializable;
 import java.util.Date;
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
 
 @Entity
 @Getter

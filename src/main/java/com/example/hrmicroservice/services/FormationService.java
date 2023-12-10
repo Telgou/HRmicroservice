@@ -2,8 +2,7 @@ package com.example.hrmicroservice.services;
 
 
 import com.example.hrmicroservice.repositories.FormationRepository;
-import com.example.hrmicroservice.repositories.FormationRepository;
-import entities.Formation;
+import com.example.hrmicroservice.entities.Formation;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

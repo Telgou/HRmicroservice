@@ -1,14 +1,10 @@
-package entities;
+package com.example.hrmicroservice.entities;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.io.Serializable;
-import java.util.List;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
 
 @Entity
 @Getter

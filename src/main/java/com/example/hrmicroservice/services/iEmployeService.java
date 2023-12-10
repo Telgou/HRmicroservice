@@ -1,6 +1,6 @@
 package com.example.hrmicroservice.services;
 
-import entities.Employe;
+import com.example.hrmicroservice.entities.Employe;
 
 import java.util.List;
 

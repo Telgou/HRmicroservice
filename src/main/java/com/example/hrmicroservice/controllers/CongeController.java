@@ -1,12 +1,11 @@
 package com.example.hrmicroservice.controllers;
 
 import com.example.hrmicroservice.services.CongeService;
-import entities.Conge;
+import com.example.hrmicroservice.entities.Conge;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @AllArgsConstructor
@@ -25,13 +24,13 @@ public class CongeController {
     }
 
     @PostMapping("/")
-    public Conge addConge(@RequestBody Conge conges) {
-        return congeService.addConge(conges);
+    public Conge addConge(@RequestBody Conge conge) {
+        return congeService.addConge(conge);
     }
 
     @PutMapping("/")
-    public Conge updateConge(@RequestBody Conge conges) {
-        return congeService.updateConge(conges);
+    public Conge updateConge(@RequestBody Conge conge) {
+        return congeService.updateConge(conge);
     }
 
     @DeleteMapping("/{id}")

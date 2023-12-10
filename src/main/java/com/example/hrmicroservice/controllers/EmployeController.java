@@ -1,7 +1,7 @@
 package com.example.hrmicroservice.controllers;
 
 import com.example.hrmicroservice.services.EmployeService;
-import entities.Employe;
+import com.example.hrmicroservice.entities.Employe;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

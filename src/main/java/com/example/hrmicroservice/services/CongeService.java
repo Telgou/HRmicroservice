@@ -1,7 +1,7 @@
 package com.example.hrmicroservice.services;
 
 import com.example.hrmicroservice.repositories.CongeRepository;
-import entities.Conge;
+import com.example.hrmicroservice.entities.Conge;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @Slf4j
 public class CongeService implements iCongeService {
-    CongeRepository congeRepository;
+    private CongeRepository congeRepository;
     @Override
     public List<Conge> retrieveAllConges() {
         return congeRepository.findAll();
